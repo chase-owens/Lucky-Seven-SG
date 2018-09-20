@@ -1,0 +1,66 @@
+body {
+  width: 100%;
+}
+
+.title {
+  text-align: center;
+}
+
+.initial-layout {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+}
+
+.bet {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  margin-bottom: 30px;
+}
+
+.bet-lbl {
+  text-align: right;
+  width: 50%;
+  margin-top: 5px;
+}
+
+.bet-amount {
+  margin-left: 5px;
+  border: 2px solid #000;
+  width: 100px;
+}
+
+.play-btn {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+.play-btn-content {
+  width: 100px;
+}
+
+.results-div {
+  display: none;
+}
+
+.restart-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+table {
+  width: 100%;
+}
+
+.row-words {
+  width: 70%;
+}
+
+.row-numbers {
+  width: 30%;
+}

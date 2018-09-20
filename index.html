@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Lucky Sevens</title>
+  <meta name="description" content="DESCRIPTION">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+  <header>
+    <div class=" jumbotron">
+      <h1 class="title">Lucky Sevens</h1>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <article class=initial-layout>
+        <div class="bet">
+          <label for="bet-amount" class="bet-lbl">Starting Bet:</label>
+          <input class="bet-amount" name="bet-amount" type="text" placeholder="$0.00">
+        </div>
+        <div class="play-btn">
+          <p class="play-btn-content btn btn-primary">Play</p>
+        </div>
+      </article>
+
+      <article class="results-div container">
+        <hr class="my-4">
+        <div>
+          <h1 class="title">Results</h1>
+        </div>
+        <table>
+          <tr>
+            <td class="row-words">
+              Starting Bet
+            </td>
+            <td id="initial-bet" class="row-numbers"></td>
+          </tr>
+          <tr>
+            <td class="row-words">
+              Total Rolls Before Going Broke
+            </td>
+            <td id="total-rolls" class="row-numbers"></td>
+          </tr>
+          <tr>
+            <td class="row-words">
+              Highest Amount Won
+            </td>
+            <td id="max-bet" class="row-numbers"></td>
+          </tr>
+          <tr>
+            <td class="row-words">
+              Roll Count at Highest Amount Won
+            </td>
+            <td id="should-have-quit" class="row-numbers"></td>
+          </tr>
+        </table>
+        <div class="restart-btn">
+          <p class="btn btn-primary">Start Over</p>
+        </div>
+      </article>
+
+    </section>
+
+  </main>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+  crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+  crossorigin="anonymous"></script>
+<script src="scripts/app.js"></script>
+
+</html>
