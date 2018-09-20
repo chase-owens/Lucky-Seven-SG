@@ -55,6 +55,12 @@ body {
 
 table {
   width: 100%;
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+
+table tr:nth-child(odd) {
+  background-color: lightgray;
 }
 
 .row-words {
